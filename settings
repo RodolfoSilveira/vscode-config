@@ -1,0 +1,30 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    "files.autoSave": "afterDelay",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    // prettier
+    "prettier.eslintIntegration": true,
+
+    //Correções automaticas
+    // "editor.formatOnSave": true,
+
+    //Font-family
+    "editor.fontSize": 18,
+    "editor.lineHeight": 24,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+
+    // Aplicar linhas verticais para lembrar de quebrar linha 
+    "editor.rulers": [80, 120],
+
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        { "language": "typescript", "autoFix": true},
+        { "language": "typescriptreact", "autoFix": true}
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always"
+}
